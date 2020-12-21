@@ -11,7 +11,7 @@ class HoursForm extends WebTestCase {
 		$this->assertResponse(200);
 
         $this->setField("hours", "2");
-		$this->setField("rate", "500");
+		$this->setField("rate", "50");
 		$this->clickSubmit("Show Pay");
 
 		$this->assertResponse(200);
